@@ -1,0 +1,40 @@
+body {
+  font-family: 'Roboto Condensed';
+  background-color: #fafafa;
+}
+
+.container {
+  margin: 150px auto;
+  max-width: 960px;
+  font-size: 14px;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown.active {
+  background-color: white;
+}
+
+.dropdown.disabled {
+  background-color: lightgrey;
+}
+
+.more-btn {
+    display: inline-block;
+    cursor: pointer;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    user-select: none;
+    width: 180px;
+    height: 35px;
+}
+.more-btn:hover {
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+.dropdown-menu > li  {
+  margin:10px 0;
+}
